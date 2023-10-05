@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *  main - main block where program execution bigins
- *  return(0) - return value 
+ *  return - return value 
  */
 int main(void)
 {

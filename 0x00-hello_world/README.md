@@ -18,4 +18,8 @@
       -- Uses the fuction 'puts'
       -- 'printf' not allowed
       -- Program ends with value 0
+# Task 5
+ - A C program that prints exactly "with proper grammer, but the outcome is a piece of art,", followed by a new line.
+      -- use printf
+      -- No warning if compiled using '-Wall gcc option 
 

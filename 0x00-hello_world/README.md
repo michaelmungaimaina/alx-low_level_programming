@@ -22,4 +22,6 @@
  - A C program that prints exactly "with proper grammer, but the outcome is a piece of art,", followed by a new line.
       -- use printf
       -- No warning if compiled using '-Wall gcc option 
+# Task 6
+ - A C program that prints the size of various types on the computer it's compiled and run on.
 

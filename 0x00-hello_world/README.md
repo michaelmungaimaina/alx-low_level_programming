@@ -13,4 +13,9 @@
 # Task 3
  - A script that compiles a C file and creates an executable named cisfun
        -- The C file named will be saved in the variable $CFILE
+# Task 4
+ - A C program that prints exactly "Programming is like building a multilingual puzzle" followed by new line.
+      -- Uses the fuction 'puts'
+      -- 'printf' not allowed
+      -- Program ends with value 0
 

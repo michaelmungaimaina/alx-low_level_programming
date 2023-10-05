@@ -28,4 +28,7 @@
  - A script that generates assembly code (intel syntax) of a C code and saves it in an output file.
       -- C file name will be saved in a variable $CFILE
       -- Output file is named as the C file but with a .s ext.
-
+# Task 8
+ - A C program that prints exactly 'and that piece of art is useful" - Dora Korpar, 2015-10-19' followed by new line.
+     -- printf or puts not allowed
+     -- No warning when compiled using -Wall gcc

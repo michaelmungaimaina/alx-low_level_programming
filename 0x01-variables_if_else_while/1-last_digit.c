@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - begin of program execution
- * Description: A program that prints the 
+ * Description: A program that prints the
  * last assigned value of a random number
  * Return: 0
  */

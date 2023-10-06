@@ -9,11 +9,12 @@
  * Numbers are printed in ascending order
  * use putchar to print up to 6 times only
  * No var of type char
+ * Return: 0
  */
 int main(void)
 {
 	int k, j, l, i;
-	
+
 	for (i = 0; i < 1000; i++)
 	{
 		j = i / 100; /* hundreds */

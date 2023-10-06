@@ -8,11 +8,12 @@
  * 01 and 10 are considered the same combination
  * Use only putchar up to 5 times
  * No var of type char
+ * Return: 0
  */
 int main(void)
 {
 	int i, j, k;
-	
+
 	i = 0;
 
 	while (i < 100)

@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main start of program execution
+ * main - start of program execution
  * Description: Prints all posible combinations of a single digit number
  * Numbers are seperated by commas and space
  * Use only puchar as IO stream

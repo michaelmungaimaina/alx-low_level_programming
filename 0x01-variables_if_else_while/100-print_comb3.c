@@ -20,16 +20,19 @@ int main(void)
 		j = i % 10; /* singles digit */
 		k = i / 10; /* doubles digit */
 
-		if (k < j)							{
-			utchar(k + '0');
+		if (k < j)
+		{
+			putchar(k + '0');
 			putchar(j + '0');
-											if (i < 89)							{
+			if (i < 89)
+			{
 				putchar(44);
 				putchar(32);
-											}
-										}
+			}
+		}
 		i++;
 	}
 	putchar('\n');
+
 	return (0);
 }

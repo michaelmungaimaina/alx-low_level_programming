@@ -25,3 +25,4 @@ int main(void)
 				"less than 6 and not 0\n", n, m);
 
 	return(0);
+}

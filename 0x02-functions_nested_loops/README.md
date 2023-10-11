@@ -9,4 +9,6 @@
 # Task 4
  - A function that checks for alphabetic char
 # Task 5
+ - A function that prints the sign of a number
+# Task 6
  - A

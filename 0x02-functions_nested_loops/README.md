@@ -27,4 +27,6 @@
  - A function that prints n times table, starting with zero. If n is greater than
    15, the function does not print anything.
 # Task 13
- - 
+ - A function that computes and prints the sum of all multiples of 3 or 5 below 1024.
+# Task 14
+ -  

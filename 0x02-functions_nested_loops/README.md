@@ -22,4 +22,6 @@
 # Task 10
  - A function that adds two inteers and return the result
 # Task 11
- -    
+ - A function that prints all natural numbers from n to 98 followed by a new line
+# Task 12
+ -     

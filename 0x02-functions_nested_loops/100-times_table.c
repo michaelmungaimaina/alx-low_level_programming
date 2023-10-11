@@ -30,6 +30,7 @@ void print_times_table(int n)
 			else if (y != 9)
 			{
 				_putchar(' ');
+				_putchar(' ');
 				_putchar(z + '0');
 			}
 			else

@@ -13,4 +13,6 @@
 # Task 6
  - A function that computs the absolute value of an integer
 # Task 7
- - 
+ - A function that prints the last digit of a number
+# Task 8
+ -  

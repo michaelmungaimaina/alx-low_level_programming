@@ -20,4 +20,6 @@
 # Task 9
  - A function that prints the 9 times table starting from zero
 # Task 10
- -   
+ - A function that adds two inteers and return the result
+# Task 11
+ -    

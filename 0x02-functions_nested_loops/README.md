@@ -33,4 +33,6 @@
 # Task 15
  - A function that computes the sum of even numbers of Fibonacci sequence not exceeding 4 million
 # Task 16
- -    
+ - A function that prints the first 98 Fibonacci numbers followed by a new line.
+   GMP not allowed, long long, malloc, pointers, arrays, or structures not allowed.
+   

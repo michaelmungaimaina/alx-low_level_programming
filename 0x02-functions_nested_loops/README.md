@@ -31,4 +31,6 @@
 # Task 14
  - A function that prints 50 Fibonacci numbers starting with 1 and 2 followed by a new line.
 # Task 15
- -   
+ - A function that computes the sum of even numbers of Fibonacci sequence not exceeding 4 million
+# Task 16
+ -    

@@ -24,4 +24,7 @@
 # Task 11
  - A function that prints all natural numbers from n to 98 followed by a new line
 # Task 12
- -     
+ - A function that prints n times table, starting with zero. If n is greater than
+   15, the function does not print anything.
+# Task 13
+ - 

@@ -15,4 +15,7 @@
 # Task 7
  - A function that prints the last digit of a number
 # Task 8
- -  
+ - A function that prints every minute of the day of Jack Bauer, starting from
+   00:00 to 23:59
+# Task 9
+ -   

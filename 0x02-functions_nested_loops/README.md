@@ -29,4 +29,6 @@
 # Task 13
  - A function that computes and prints the sum of all multiples of 3 or 5 below 1024.
 # Task 14
- -  
+ - A function that prints 50 Fibonacci numbers starting with 1 and 2 followed by a new line.
+# Task 15
+ -   

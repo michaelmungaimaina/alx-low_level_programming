@@ -11,4 +11,8 @@
     Returns 1 if c is a digit
     Returns 0 otherwise
 # Task 2
- -  
+ - A function that multiplies two integers.
+
+    Prototype: int mul(int a, int b);
+# Task 3
+ - A   

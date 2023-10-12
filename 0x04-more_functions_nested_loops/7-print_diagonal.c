@@ -3,7 +3,6 @@
  * print_diagonal - Prints a diagonal line on Terminal
  * Description: Only sue _putchar fun to print
  * @n: length of diagonal
- * Return: void
  */
 void print_diagonal(int n)
 {

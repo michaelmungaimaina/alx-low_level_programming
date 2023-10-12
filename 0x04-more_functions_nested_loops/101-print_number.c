@@ -8,7 +8,7 @@
  */
 void print_number(int n)
 {
-	NUM m; /* large number */
+	long m; /* large number */
 	int c; /* boolean check */
 	long num; /* convert int to long */
 

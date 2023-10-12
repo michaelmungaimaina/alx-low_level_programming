@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
  * print_diagonal - Prints a diagonal line on Terminal
- * Description: Only sue _putchar fun to print
- * @n: length of diagonal
+ * Description: Only use _putchar func to print
+ * @n: number of times the '\' char is printed
  */
 void print_diagonal(int n)
 {

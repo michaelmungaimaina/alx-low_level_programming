@@ -10,7 +10,7 @@ void print_number(int n)
 {
 	NUM m; /* large number */
 	int c; /* boolean check */
-	NUM num; /* convert int to long */
+	long num; /* convert int to long */
 
 	num  = n;
 	/* negatives */

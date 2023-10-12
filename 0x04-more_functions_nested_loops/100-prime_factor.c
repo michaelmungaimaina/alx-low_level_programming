@@ -9,7 +9,7 @@ int main(void)
 {
 	int n;
 	long num  = 61285247143;
-	
+
 	for (n = (int) sqrt(num); n > 2; n++)
 	{
 		if (num % n == 0)

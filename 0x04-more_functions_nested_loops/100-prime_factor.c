@@ -7,8 +7,22 @@
  */
 int main(void)
 {
-	int n;
+	long n;
 	long num  = 61285247143;
+
+	for (n = 2; n <= sqrt(num); n++)
+	{
+		while (num % n == 0)
+		{
+			num /= n;
+		}
+	}
+
+	if (num > 1)
+	{
+		printf("%d\n", num);
+	}
+	/**
 
 	for (n = (int) sqrt(num); n > 2; n++)
 	{
@@ -18,6 +32,7 @@ int main(void)
 			break;
 		}
 	}
+	**/
 
 	return (0);
 }

@@ -1,7 +1,7 @@
 # A FILE
  - The basics of C programming
-   > data type
-   > syntax
+   > data type <
+   > syntax <
    > history
    > application
  - Algorithms in C

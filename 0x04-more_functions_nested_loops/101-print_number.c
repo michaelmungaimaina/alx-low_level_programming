@@ -1,5 +1,4 @@
 #include "main.h"
-#define NUM 1000000000
 /**
  * print_number - prints an integer
  * Description: Use _putchar to print, do not use long
@@ -8,41 +7,20 @@
  */
 void print_number(int n)
 {
-	long m; /* large number */
-	int c; /* boolean check */
-	long num; /* convert int to long */
+	unsigned int k = n;
 
-	num  = n;
-	/* negatives */
-	if (num < 0)
+	if (n < 0)
 	{
-		num *= -1;
+		n *= -1;
+		k = n;
 		_putchar('-');
 	}
 
-	/* count up */
-	m = 1;
-	c = 1;
-	while (c)
-	{
-		if (num / (m * 10) > 0)
-			m *= 10;
-		else
-			c = 0;
-	}
+	k /= 10;
 
-	/* count down */
-	while (num >= 1)
-	{
-		if (m == 1)
-		{
-			_putchar(num % 10 + '0');
-			num = -1;
-		}
-		else
-		{
-			_putchar((num / m % 10) + '0');
-			m /=10;
-		}
-	}
+	if (k != 0)
+		print_number(k);
+
+	_putchar((unsigned int) n % 10 + '0');
+
 }

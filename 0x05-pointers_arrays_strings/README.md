@@ -1,17 +1,10 @@
 
 
 0x05. C - Pointers, arrays and strings
-C
-
-    By: Julien Barbier
-    Weight: 1
-    Project will start Oct 16, 2023 6:00 AM, must end by Oct 17, 2023 6:00 AM
-    Checker was released at Oct 16, 2023 6:00 AM
-    An auto review will be launched at the deadline
 
 Concepts
 
-For this project, we expect you to look at these concepts:
+For this project, look at these concepts:
 
     Pointers and arrays
     Data Structures
@@ -21,7 +14,7 @@ Resources
 
 Read or watch:
 
-    C - Arrays
+    [C - Arrays](https://www.tutorialspoint.com/cprogramming/c_arrays.htm)
     C - Pointers
     C - Strings
     Memory Layout

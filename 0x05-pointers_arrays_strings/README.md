@@ -1,23 +1,23 @@
 
 
-0x05. C - Pointers, arrays and strings
+#0x05. C - Pointers, arrays and strings
 
-Concepts
+#Concepts
 
 For this project, look at these concepts:
 
-    Pointers and arrays
-    Data Structures
-    Struggling with the sandbox? Try this: Using Docker & WSL on your local host
+[Pointers and arrays](https://intranet.alxswe.com/concepts/60)
+[Data Structures](https://intranet.alxswe.com/concepts/120)
+[Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039)
 
 Resources
 
 Read or watch:
 
-    [C - Arrays](https://www.tutorialspoint.com/cprogramming/c_arrays.htm)
-    C - Pointers
-    C - Strings
-    Memory Layout
+[C - Arrays](https://www.tutorialspoint.com/cprogramming/c_arrays.htm)
+[C - Pointers](https://www.tutorialspoint.com/cprogramming/c_pointers.htm)
+[C - Strings](https://www.tutorialspoint.com/cprogramming/c_strings.htm)
+[Memory Layout](https://aticleworld.com/memory-layout-of-c-program/)
 
 Learning Objectives
 
@@ -30,37 +30,8 @@ General
     How to use strings and how to manipulate them
     Scope of variables
 
-Copyright - Plagiarism
-
-    You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-    You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-    You are not allowed to publish any content of this project.
-    Any form of plagiarism is strictly forbidden and will result in removal from the program.
-
-Requirements
-General
-
-    Allowed editors: vi, vim, emacs
-    All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-    All your files should end with a new line
-    A README.md file, at the root of the folder of the project is mandatory
-    Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-    You are not allowed to use global variables
-    No more than 5 functions per file
-    You are not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden
-    You are allowed to use _putchar
-    You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
-    In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-    The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
-    Don’t forget to push your header file
-
-More Info
-
-You do not need to learn about pointers to functions, pointers to pointers, multidimensional arrays, arrays of structures, malloc and free - yet.
-Quiz questions
-Great! You've completed the quiz successfully! Keep going! (Show quiz)
-Tasks
-0. 98 Battery st.
+#Tasks
+#TASK 0. 98 Battery st.
 mandatory
 
 Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.
@@ -98,7 +69,7 @@ Repo:
     Directory: 0x05-pointers_arrays_strings
     File: 0-reset_to_98.c
 
-1. Don't swap horses in crossing a stream
+#TASK 1. Don't swap horses in crossing a stream
 mandatory
 
 Write a function that swaps the values of two integers.
@@ -138,7 +109,7 @@ Repo:
     Directory: 0x05-pointers_arrays_strings
     File: 1-swap.c
 
-2. This report, by its very length, defends itself against the risk of being read
+#TASK 2. This report, by its very length, defends itself against the risk of being read
 mandatory
 
 Write a function that returns the length of a string.
@@ -177,7 +148,7 @@ Repo:
     Directory: 0x05-pointers_arrays_strings
     File: 2-strlen.c
 
-3. I do not fear computers. I fear the lack of them
+#TASK 3. I do not fear computers. I fear the lack of them
 mandatory
 
 Write a function that prints a string, followed by a new line, to stdout.
@@ -213,7 +184,7 @@ Repo:
     Directory: 0x05-pointers_arrays_strings
     File: 3-puts.c
 
-4. I can only go one way. I've not got a reverse gear
+#TASK 4. I can only go one way. I've not got a reverse gear
 mandatory
 
 Write a function that prints a string, in reverse, followed by a new line.
@@ -247,7 +218,7 @@ Repo:
     Directory: 0x05-pointers_arrays_strings
     File: 4-print_rev.c
 
-5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
+#TASK 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
 mandatory
 
 Write a function that reverses a string.
@@ -284,7 +255,7 @@ Repo:
     Directory: 0x05-pointers_arrays_strings
     File: 5-rev_string.c
 
-6. Half the lies they tell about me aren't true
+#TASK 6. Half the lies they tell about me aren't true
 mandatory
 
 Write a function that prints every other character of a string, starting with the first character, followed by a new line.
@@ -318,7 +289,7 @@ Repo:
     Directory: 0x05-pointers_arrays_strings
     File: 6-puts2.c
 
-7. Winning is only half of it. Having fun is the other half
+#TASK 7. Winning is only half of it. Having fun is the other half
 mandatory
 
 Write a function that prints half of a string, followed by a new line.
@@ -354,7 +325,7 @@ Repo:
     Directory: 0x05-pointers_arrays_strings
     File: 7-puts_half.c
 
-8. Arrays are not pointers
+#TASK 8. Arrays are not pointers
 mandatory
 
 Write a function that prints n elements of an array of integers, followed by a new line.
@@ -396,7 +367,7 @@ Repo:
     Directory: 0x05-pointers_arrays_strings
     File: 8-print_array.c
 
-9. strcpy
+#TASK 9. strcpy
 mandatory
 
     Prototype: char *_strcpy(char *dest, char *src);
@@ -439,7 +410,7 @@ Repo:
     File: 9-strcpy.c
 
 
-10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers
+#TASK 10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers
 #advanced
 
 Write a function that convert a string to an integer.
@@ -504,7 +475,7 @@ Repo:
     Directory: 0x05-pointers_arrays_strings
     File: 100-atoi.c
 
-11. Don't hate the hacker, hate the code
+#TASK 11. Don't hate the hacker, hate the code
 #advanced
 
 Create a program that generates random valid passwords for the program 101-crackme.

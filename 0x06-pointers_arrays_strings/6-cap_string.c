@@ -10,7 +10,7 @@ char *cap_string(char *str)
 {
 	int j = 0; /** tracker of current char **/
 	int i; /** loop counter **/
-	char trigChar[] = ",;.!?(){}\n\t\" "; /** trigger for apitalizatio **/
+	char trigChar[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
 	while (str[j])
 	{

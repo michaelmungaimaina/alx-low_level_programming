@@ -6,22 +6,25 @@
  * Return: str
  */
 
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
-	int j = 0; /** tracker of current char **/
-	int i; /** loop counter **/
-	char trigChar[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
+	int a = 0, i;
+	int cspc = 13;
+	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
-	while (str[j])
+	while (s[a])
 	{
-		for (i = 0; trigChar[i] != '\0'; i++)
+		i = 0;
+
+		while (i < cspc)
 		{
-			if ((j == 0 || str[j - 1] == trigChar[i]) && (str[j] >= 97 && str[j] <= 122))
-				s[j] -= 32;
+			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
+																			s[a] -= 32;
+																		i++;
 		}
-		
-		j++;
+
+		a++;
 	}
 
-	return (str);
+	return (s);
 }

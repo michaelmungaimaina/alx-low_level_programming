@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - begin of program excecution
+ * Description: Addd a single statement that will make the code output 98
+ * Return:0
+ */
+
 int main(void)
 {
 	int n;

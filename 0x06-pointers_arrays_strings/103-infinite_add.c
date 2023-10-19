@@ -12,39 +12,44 @@
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int len1 = strlen(n1);
-	int len2 = strlen(n2);
+	int c1 = 0, c2 = 0, op, bg, dr1, dr2, add = 0;
 
-	int carry = 0;
-
-	if (len1 + 1 > size_r || len2 + 1 > size_r)
+	while (*(n1 + c1) != '\0')
+		c1++;
+	while (*(n2 + c2) != '\0')
+		c2++;
+	if (c1 >= c2)
+		bg = c1;
+	else
+		bg = c2;
+	if (size_r <= bg + 1)
 		return (0);
-
-	int i = len1 - 1;
-	int j = len2 - 1;
-	int k = 0;
-
-	while(i >= 0 || j >= 0 || carry)
+	r[bg + 1] = '\0';
+	c1--, c2--, size_r--;
+	dr1 = *(n1 + c1) - 48, dr2 = *(n2 + c2) - 48;
+	while (bg >= 0)
 	{
-		int num1 = (i >+ 0) ? n1[i] - '0' : 0;
-		int num2 = (j >= 0) ? n2[j] - '0' : 0;
-
-		int sum = sum / 10;
-		r[k] = (sum % 10) + '0';
-
-		k++;
-		i--;
-		j--;
+		op = dr1 + dr2 + add;
+		if (op >= 10)
+			add = op / 10;
+		else
+			add = 0;
+		if (op > 0)
+			*(r + bg) = (op % 10) + 48;
+		else
+			*(r + bg) = '0';
+		if (c1 > 0)
+			c1--, dr1 = *(n1 + c1) - 48;
+		else
+			dr1 = 0;
+		if (c2 > 0)
+			c2--, dr2 = *(n2 + c2) - 48;
+		else
+			dr2 = 0;
+		bg--, size_r--;
 	}
-
-	r[k] = '\0';
-
-	for (int start = 0, end = k - 1; start < end; start++, end--)
-	{
-		char temp = r[start];
-		r[start] = r[end];
-		r[end] = temp;
-	}
-
-	return (r);
+	if (*(r) == '0')
+		return (r + 1);
+	else
+		return (r);
 }

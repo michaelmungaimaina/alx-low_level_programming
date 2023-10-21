@@ -16,4 +16,12 @@
     > nested for <<
     > nested while <<
     > nested if
+ - Pointers
+    > Manipulation
+ - Strings
+    > atoi
+    > Capitalization
+    
+ - Arrays
+ - Functions
    

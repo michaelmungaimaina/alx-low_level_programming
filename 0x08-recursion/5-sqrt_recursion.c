@@ -14,7 +14,7 @@ int _sqrt_recursion(int n)
 /**
  * _sqrt - helper func to calculates natural square root
  * @n: number to calculate the square root
- * @i: iterate number
+ * @i: iteration number
  *
  * Return: the natural square root
  */
@@ -22,11 +22,11 @@ int _sqrt(int n, int i)
 {
 	int square = i * i;
 
-	if (square > n)
-		return (-1);
-
 	if (square == n)
 		return (i);
 
-	return (_sqrt(n, i + 1));
+	if (square < n)
+		return (_sqrt(n, i + 1));
+
+	return (-1);
 }

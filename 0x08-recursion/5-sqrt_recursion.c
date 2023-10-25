@@ -25,10 +25,11 @@ int _sqrt_recursion(int n)
  */
 int find_sqrt(int n, int guess)
 {
-	if (guess * guess == n)
+	root = guess * guess;
+	if (root == n)
 		return (guess);
 
-	if (guess * guess > n) 
+	if (root > n) 
 		return (-1);
 	
 	return (find_sqrt(n, guess + 1));

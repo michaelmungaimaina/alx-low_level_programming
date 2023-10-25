@@ -25,7 +25,7 @@ int _sqrt_recursion(int n)
  */
 int find_sqrt(int n, int guess)
 {
-	root = guess * guess;
+	int root = guess * guess;
 	if (root == n)
 		return (guess);
 

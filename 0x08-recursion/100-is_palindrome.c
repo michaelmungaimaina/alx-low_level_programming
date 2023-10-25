@@ -11,10 +11,14 @@ int _strlen(char *s);
  */
 int is_palindrome(char *s)
 {
+	int length;
+	
 	if (*s == '\0')
 		return (1);
 
-	return (_palindrome(s));
+	length = _strlen(s) - 1;
+
+	return (_palindrome(s, --length));
 }
 
 /**
@@ -23,21 +27,17 @@ int is_palindrome(char *s)
  *
  * Return: integer value
  */
-int _palindrome(char *s)
+int _palindrome(char *s, int l)
 {
-	int l = _strlen(s) - 1;
-
-	if (*s == s[l])
+	if (*s == *(s + l))
 	{
-		s++;
-		l--;
+		if (l <= 0)
+			return (1);
+		else
+			return (my_pal(++s, l - 2));
 	}
 	else
-	{
 		return (0);
-	}
-
-	return (1);
 }
 
 /**

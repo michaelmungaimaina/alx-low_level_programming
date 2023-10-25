@@ -24,6 +24,7 @@ int is_palindrome(char *s)
 /**
  * _palindrome - Check if a string is palindrome
  * @s: the string value to be checked
+ * @l: string length
  *
  * Return: integer value
  */
@@ -34,7 +35,7 @@ int _palindrome(char *s, int l)
 		if (l <= 0)
 			return (1);
 		else
-			return (my_pal(++s, l - 2));
+			return (_palindrome(++s, l - 2));
 	}
 	else
 		return (0);

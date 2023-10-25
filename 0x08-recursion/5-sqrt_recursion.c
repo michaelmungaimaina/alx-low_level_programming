@@ -8,24 +8,18 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
+	int halp(int c, int i)
 	{
-		return (-1);
-	}
-	else if (n == 0 || n == 1)
-	{
-		return (n);
-	}
-	else
-	{
-		int root = _sqrt_recursion(n - 1);
-		if (root * root == n)
-		{
-			return (root);
-		}
+		int square;
+
+		square = i * i;
+		if (square == c)
+			return (i);
+		else if (square < c)
+			return (halp(c, i + 1));
 		else
-		{
-			return (_sqrt_recursion(n - 1));
-		}
+			return (-1);
 	}
+
+	return (halp(n, 1));
 }

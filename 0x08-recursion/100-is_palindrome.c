@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _palindrome(char *s);
+int _palindrome(char *s, int l);
 int _strlen(char *s);
 
 /**

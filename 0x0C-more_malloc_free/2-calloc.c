@@ -2,44 +2,25 @@
 #include "main.h"
 
 /**
- * *string_nconcat - concatenates n bytes of a string to another string
- * @s1: string to append to
- * @s2: string to concatenate from
- * @n: number of bytes from s2 to concatenate to s1
- *
- * Return: pointer to the resulting string
+ * _calloc - allocates memory for an array given number of elements and size
+ * @nmemb: number of elements
+ * @size: size of each element
+ * Return: Null if error, else pointer to allocated memory
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *s;
-	unsigned int i = 0, j = 0, len1 = 0, len2 = 0;
+	int *p;
+	unsigned int i;
 
-	while (s1 && s1[len1])
-		len1++;
-	while (s2 && s2[len2])
-		len2++;
-
-	if (n < len2)
-		s = malloc(sizeof(char) * (len1 + n + 1));
-	else
-		s = malloc(sizeof(char) * (len1 + len2 + 1));
-
-	if (!s)
+	if (nmemb <= 0 || size <= 0)
 		return (NULL);
 
-	while (i < len1)
-	{
-		s[i] = s1[i];
-		i++;
-	}
+	p = malloc(nmemb * size);
+	if (p == NULL)
+		return (NULL);
+	for (i = 0; i < nmemb; i++)
+		p[i] = 0;
 
-	while (n < len2 && i < (len1 + n))
-		s[i++] = s2[j++];
-
-	while (n >= len2 && i < (len1 + len2))
-		s[i++] = s2[j++];
-
-	s[i] = '\0';
-
-	return (s);
+	return (p);
 }

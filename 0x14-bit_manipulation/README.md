@@ -2,7 +2,7 @@
 0. 0
 #mandatory
 
--Write a function that converts a binary number to an unsigned int.(SOLN)[https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-binary_to_uint.c]
+-[Write a function that converts a binary number to an unsigned int.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-binary_to_uint.c)
 
     Prototype: unsigned int binary_to_uint(const char *b);
     where b is pointing to a string of 0 and 1 chars

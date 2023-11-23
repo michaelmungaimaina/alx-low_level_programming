@@ -1,6 +1,6 @@
 # Tasks
 
-[Write a function that converts a binary number to an unsigned int.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-binary_to_uint.c)
+# 0. [Write a function that converts a binary number to an unsigned int.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-binary_to_uint.c)
 
     Prototype: unsigned int binary_to_uint(const char *b);
     where b is pointing to a string of 0 and 1 chars
@@ -48,7 +48,7 @@ Repo:
     Directory: 0x14-bit_manipulation
     File: 0-binary_to_uint.c
 
-- 1. [Write a function that prints the binary representation of a number.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-print_binary.c)
+# 1. [Write a function that prints the binary representation of a number.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-print_binary.c)
 
     Prototype: void print_binary(unsigned long int n);
     Format: see example
@@ -94,7 +94,7 @@ Repo:
     Directory: 0x14-bit_manipulation
     File: 1-print_binary.c
 
-2. [Write a function that returns the value of a bit at a given index.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/2-get_bit.c)
+# 2. [Write a function that returns the value of a bit at a given index.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/2-get_bit.c)
 
     Prototype: int get_bit(unsigned long int n, unsigned int index);
     where index is the index, starting from 0 of the bit you want to get
@@ -134,7 +134,7 @@ Repo:
     Directory: 0x14-bit_manipulation
     File: 2-get_bit.c
 
-3. [Write a function that sets the value of a bit to 1 at a given index.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/3-set_bit.c)
+# 3. [Write a function that sets the value of a bit to 1 at a given index.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/3-set_bit.c)
 
     Prototype: int set_bit(unsigned long int *n, unsigned int index);
     where index is the index, starting from 0 of the bit you want to set
@@ -177,7 +177,7 @@ Repo:
     Directory: 0x14-bit_manipulation
     File: 3-set_bit.c
 
-4. [Write a function that sets the value of a bit to 0 at a given index.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/4-clear_bit.c)
+# 4. [Write a function that sets the value of a bit to 0 at a given index.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/4-clear_bit.c)
 
     Prototype: int clear_bit(unsigned long int *n, unsigned int index);
     where index is the index, starting from 0 of the bit you want to set
@@ -220,7 +220,7 @@ Repo:
     Directory: 0x14-bit_manipulation
     File: 4-clear_bit.c
 
-5. [Write a function that returns the number of bits you would need to flip to get from one number to another.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/5-flip_bits.c)
+# 5. [Write a function that returns the number of bits you would need to flip to get from one number to another.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/5-flip_bits.c)
 
     Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
     You are not allowed to use the % or / operators
@@ -262,7 +262,7 @@ Repo:
     Directory: 0x14-bit_manipulation
     File: 5-flip_bits.c
 
-6. [Write a function that checks the endianness.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/100-get_endianness.c)
+# 6. [Write a function that checks the endianness.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/100-get_endianness.c)
 
     Prototype: int get_endianness(void);
     Returns: 0 if big endian, 1 if little endian
@@ -308,7 +308,7 @@ Repo:
     Directory: 0x14-bit_manipulation
     File: 100-get_endianness.c
 
-7. [Find the password for this program.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/101-password)
+# 7. [Find the password for this program.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/101-password)
 
     Save the password in the file 101-password
     Your file should contain the exact password, no new line, no extra space

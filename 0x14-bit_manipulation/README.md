@@ -48,7 +48,7 @@ Repo:
     Directory: 0x14-bit_manipulation
     File: 0-binary_to_uint.c
 
-1. 1 [Write a function that prints the binary representation of a number.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-print_binary.c)
+- 1. [Write a function that prints the binary representation of a number.](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-print_binary.c)
 
     Prototype: void print_binary(unsigned long int n);
     Format: see example

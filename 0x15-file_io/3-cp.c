@@ -53,13 +53,13 @@ void cp(int fd_in, int fd_out, char *buffer, char *dest_file, char *src_file)
 	while ((n_read = read(fd_in, buffer, BUFF_LEN)) > 0)
 	{
 		n_write = write(fd_out, buffer, n_read);
-		
+
 		/*
 		 * let's ensure the copy operation is working and the right number of
 		 * bytes are being written to the destination file
 		 */
 		if (n_write == -1 || n_write != n_read)
-		{	
+		{
 			print_write_fail(dest_file);
 			close_fds(2, fd_in, fd_out);
 			exit(WRITE_FAIL);

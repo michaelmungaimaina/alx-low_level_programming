@@ -113,7 +113,7 @@ Repo:
     Directory: 0x15-file_io
     File: 0-read_textfile.c
 
-# 1. [Under the snow mandatory](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x15-file_io/1-create_file.c)
+# 1. [Under the snow](https://github.com/michaelmungaimaina/alx-low_level_programming/blob/master/0x15-file_io/1-create_file.c)
 
 Create a function that creates a file.
 
